@@ -1,0 +1,8 @@
+production:
+  adapter: postgresql
+  pool: 5
+  host: localhost
+  username: nd-pg-enum-migrations
+  password: ""
+  prepared_statements: false
+  url: "postgres://nd-pg-enum-migrations:@localhost:5432/nd-pg-enum-migrations"

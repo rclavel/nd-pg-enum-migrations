@@ -1,0 +1,14 @@
+version: "3"
+services:
+  database:
+    container_name: nd-pg-enum-migrations
+    image: postgres:9.6.8
+    ports:
+      - "127.0.0.1:5432:5432"
+    environment:
+      POSTGRES_USER: nd-pg-enum-migrations
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:
+    name: nd-pg-enum-migrations-postgres

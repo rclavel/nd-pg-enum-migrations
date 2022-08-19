@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    nd-pg-enum-migrations (0.1.0)
+    nd-pg-enum-migrations (1.0.0)
       activerecord (>= 6.0.0)
 
 GEM
